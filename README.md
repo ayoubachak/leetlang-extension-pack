@@ -1,65 +1,68 @@
-# Leet README
+# AI Leet Programming Language
 
-This is the README for your extension "Leet". After writing up a brief description, we recommend including the following sections.
+![Leet Logo](media/leet_logo_256x256.png)
+
+AI Leet is a modern, high-level programming language designed for simplicity, readability, and ease of use. It is inspired by the syntax and semantics of popular programming languages, aiming to provide a robust environment for both beginners and experienced developers.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Easy-to-read syntax:** Inspired by languages like Python and JavaScript.
+- **Dynamic typing:** Variables can store values of any type, making the language flexible and versatile.
+- **Automatic memory management:** Built-in garbage collection to handle memory allocation and deallocation.
+- **Standard libraries:** A rich set of standard libraries for common tasks, such as file I/O, networking, and data manipulation.
+- **Extensible:** Easily extend the language with custom libraries and modules.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+### Prerequisites
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- [Node.js](https://nodejs.org/) (for VSCode extension development)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-## Requirements
+### Install the AI Leet VSCode Extension
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Download the AI Leet extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/).
+2. Alternatively, download the `.vsix` file from the releases page and install it manually:
+   - Open VSCode.
+   - Go to the Extensions view (`Ctrl+Shift+X`).
+   - Click on the three-dot menu (`...`) in the top-right corner.
+   - Select "Install from VSIX..." and navigate to the downloaded `.vsix` file.
 
-## Extension Settings
+## Usage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Writing Your First AI Leet Program
 
-For example:
+Create a new file with the `.leet` extension and add the following code:
 
-This extension contributes the following settings:
+```leet
+// Your first AI Leet program
+print "Hello, world!";
+```
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## Running AI Leet Programs
+1) Save your .leet file.
+2) Open the terminal in VSCode.
+3) Navigate to the directory containing your .leet file.
+4) Run the AI Leet interpreter (assuming it's installed and available in your PATH):
+```bash
+leet your_file.leet
+```
 
-## Known Issues
+## Syntax Highlighting
+With the AI Leet VSCode extension installed, syntax highlighting and basic code intelligence (e.g., auto-completion, linting) are enabled by default.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Contributing
+We welcome contributions from the community. To contribute:
 
-## Release Notes
+- Fork the repository on GitHub.
+- Create a new branch with a descriptive name.
+- Make your changes and commit them with clear and concise messages.
+- Push your changes to your fork.
+- Submit a pull request to the main repository.
+- Please ensure your code follows our coding standards and passes all tests.
 
-Users appreciate release notes as you update your extension.
+## License
+This project is licensed under the MIT License. See the [LICENSE](https://chatgpt.com/c/LICENSE) file for more details.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+## Contact
+For questions, suggestions, or feedback, please open an issue on GitHub or contact us at contact@aileet.org.
