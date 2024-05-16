@@ -1,0 +1,86 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Leet Lang",
+	"patterns": [
+		{
+		  "name": "comment.line.double-slash.lox",
+		  "begin": "//",
+		  "beginCaptures": {
+			"0": {
+			  "name": "punctuation.definition.comment.lox"
+			}
+		  },
+		  "end": "$",
+		  "patterns": [
+			{
+			  "name": "comment.line.double-slash.lox"
+			}
+		  ]
+		},
+		{
+		  "name": "string.quoted.double.lox",
+		  "begin": "\"",
+		  "beginCaptures": {
+			"0": {
+			  "name": "punctuation.definition.string.begin.lox"
+			}
+		  },
+		  "end": "\"",
+		  "endCaptures": {
+			"0": {
+			  "name": "punctuation.definition.string.end.lox"
+			}
+		  },
+		  "patterns": [
+			{
+			  "name": "constant.character.escape.lox",
+			  "match": "\\\\."
+			}
+		  ]
+		},
+		{
+		  "name": "constant.numeric.lox",
+		  "match": "\\b\\d+(\\.\\d+)?\\b"
+		},
+		{
+		  "name": "keyword.control.lox",
+		  "match": "\\b(if|else|while|for|return|print|var|fun|class|super|this)\\b"
+		},
+		{
+		  "name": "constant.language.boolean.lox",
+		  "match": "\\b(true|false|nil)\\b"
+		},
+		{
+		  "name": "variable.language.lox",
+		  "match": "\\b(this|super)\\b"
+		},
+		{
+		  "name": "keyword.operator.lox",
+		  "match": "\\b(and|or|==|!=|<|<=|>|>=|\\+|\\-|\\*|\\/|=|!)\\b"
+		},
+		{
+		  "name": "punctuation.terminator.statement.lox",
+		  "match": ";"
+		}
+	  ],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.leet",
+				"match": "\\b(if|while|for|return)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.leet",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.leet",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.lt"
+}
