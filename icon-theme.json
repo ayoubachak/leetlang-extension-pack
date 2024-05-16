@@ -1,0 +1,17 @@
+{
+    "iconDefinitions": {
+      "leet-icon": {
+        "iconPath": "./media/icon.png"
+      }
+    },
+    "fileExtensions": {
+      "leet": "leet-icon"
+    },
+    "fileNames": {
+      ".leet": "leet-icon"
+    },
+    "languageIds": {
+      "leet": "leet-icon"
+    }
+  }
+  

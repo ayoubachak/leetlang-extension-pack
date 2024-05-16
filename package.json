@@ -2,7 +2,7 @@
   "name": "leet",
   "displayName": "Leet",
   "description": "Syntax highlighting for the Leet programming language",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "leet",
   "engines": {
     "vscode": "^1.89.0"
