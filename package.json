@@ -19,13 +19,20 @@
     "languages": [{
       "id": "leet",
       "aliases": ["Leet Lang", "leet"],
-      "extensions": [".lt",".leet"],
+      "extensions": [".lt", ".leet"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
       "language": "leet",
       "scopeName": "source.lt",
       "path": "./syntaxes/leet.tmLanguage.json"
-    }]
+    }],
+    "iconThemes": [
+      {
+        "id": "leet-icon-theme",
+        "label": "Leet Icon Theme",
+        "path": "./icon-theme.json"
+      }
+    ]
   }
 }
